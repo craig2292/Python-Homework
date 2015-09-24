@@ -1,0 +1,24 @@
+Exercise 5
+Challenge # 1
+
+For each of the following tools, look up the syntax in ArcGIS Desktop
+Help and answer the following questions.
+Tools:
+
+Add XY Coordinates:
+         =   In_features
+AddXY_arc (in_cover, {feature_type})
+
+Dissolve:
+        = syntax
+Dissolve management (in_features, out_feature_class, {dissolve_field}, {statistics_fields}, {multi_part}, {unsplit_lines})
+
+Questions:
+	What are the required parameters?
+		They come first and are separated by a comma (,)
+		In_features, Out_Feature_class
+
+	What are the optional parameters, and what are their defaults?
+		Optional are surrounded by curly brackets {}
+		{line_side} {line_end_type}
+
